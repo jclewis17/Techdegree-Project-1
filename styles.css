@@ -74,13 +74,13 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: table;
   margin: 10px auto;
 }
@@ -114,10 +114,47 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+  transition: all .5s;
+}
+
+.skills li:hover {
+  transform: scale(1.2);
 }
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.screenshot {
+  width: 220px;
+  height: 160px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li.phone {
+  padding-bottom: 20px;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('images/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('images/mail.png');
 }
 
 footer {
