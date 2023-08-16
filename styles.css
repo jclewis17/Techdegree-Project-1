@@ -126,6 +126,7 @@ ul.skills {
 
 .contact:hover {
   color: black;
+  text-decoration: underline;
 }
 
 .ad-pic {
